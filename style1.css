@@ -1,0 +1,155 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(images/m5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;  
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    justify-content: center;
+}
+
+.login
+{
+    margin-top: 90px;
+    height: 420px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 40px;    
+}
+
+h2
+{
+    text-align: center; 
+    padding: 0 0 20px 0;
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+.login p
+{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.login input
+{
+width: 100%;
+margin-bottom: 20px; 
+
+}
+
+.login input[type=text], .login input[type=password],
+.signup input[type=text], .signup input[type=password]
+{
+background: transparent;
+border: none; 
+border-bottom: 1px solid white;
+height: 40px;
+color: white;
+font-size: 16px;
+outline: none; 
+}
+
+.login input[type=submit]
+{
+    border: none; 
+    height: 40px;
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: darkmagenta;
+    margin: 25px 0;
+}
+
+.login a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-bottom: 3px; 
+    margin: 23px 10px  3px 10px;
+}
+
+.login a:hover
+{
+    border-bottom: 2px solid darkorange;
+}
+
+.login input[type=submit]:hover, .signup .m1 input[type=submit]:hover,
+.signup .m1 input[type=button]:hover
+{
+    background-color: darkorange;
+}
+
+/* ------signin------- */
+
+.signup
+{
+    margin-top: 90px; 
+    height: 75vh;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.contant
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+    flex-wrap: wrap;
+}   
+
+.signup input
+{
+width: 80%;
+margin-bottom: 20px;
+color: burlywood; 
+}
+
+.signup .m1 input[type=submit], .signup .m1 input[type=button]
+{
+    width: 32%;
+    border: none; 
+    height: 48px;
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: darkmagenta;
+    margin:25px 0px 0px 0px;
+}
+
+.signup .m1 input[type=button]
+{
+    background-color: transparent;
+    border: 2px solid darkmagenta; 
+}
+
+.signup p
+{
+    color: white;
+    font-size: 18px;
+}
+
+.signup .m1
+{
+    display: flex;
+    width: 600px;
+    height: 100px;
+    justify-content:space-evenly ;
+}
+
